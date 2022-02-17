@@ -38,8 +38,9 @@
 }
 
 .pic-0{
-    width: 300px;
-    margin-left: -10px;
+    width: 290px;
+    margin: auto; 
+
     justify-content: center;
  
 }
@@ -47,18 +48,31 @@
 /* row */
 
 .row{
-    margin-bottom: 0;}
+    margin: 0;
+    background-color:rgb(86, 218, 228);}
 
 
 .pic-1{
     max-width: 140px;
     flex-wrap: wrap;
-    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
 
 }
+#red{
+    clip-path: inset( 33px 0px 0px 0px);
+    margin-top: 0;
+    overflow: auto;
+}
+
+/* footer */
 
 
 
-footer{
-    background-color: rgb(137, 207, 209);
+.the-end{
+    justify-content: center;
+    margin: 5px;
+    background-color: rgb(223, 78, 155);
+    text-align: center;
 }
