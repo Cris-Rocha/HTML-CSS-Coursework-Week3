@@ -44,12 +44,19 @@
  
 }
 
+/* row */
+
+.row{
+    margin-bottom: 0;}
+
+
 .pic-1{
     max-width: 140px;
     flex-wrap: wrap;
     margin: 5px;
 
 }
+
 
 
 footer{
