@@ -4,15 +4,46 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
-    
 
 } 
-.top-header{
-    padding: 5px;
+/*  mobile menu */
+
+
+.mobile-container{
+    padding: 10px;
     background-color: rgb(137, 207, 209);
     height: 150px;
     flex-wrap: wrap;
 }
+.topnav {
+  overflow: hidden;
+  position: fixed; 
+  top: 14px; left: 265px;
+  background-color: rgb(89, 53, 105);
+ 
+  
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #aa0f04;
+  color: white;
+  justify-content: flex-end;
+}
+
 .comercial-phrase{
     background-color: rgb(180, 152, 206);
     text-align: end;
