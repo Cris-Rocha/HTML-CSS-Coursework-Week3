@@ -17,8 +17,6 @@
     align-items: flex-end;
     flex-wrap: wrap;
     font-size: 12px;
-   
-   
 }
 
 /* main */
@@ -30,4 +28,9 @@
 .main-text{
     padding: 20px 10px 20px;
     flex-wrap: wrap;
+}
+
+.pic-0{
+    width: 300px;
+    margin-left: -5px;
 }
