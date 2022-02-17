@@ -9,27 +9,32 @@
     <!-- Add a link to your css file here -->
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="top-header">
-        <img class="cake" src="logotipo copy 2.png" alt="">
-        <p class="comercial-phrase"> The best cakes in Town delivered to your door </p>
-        <nav>
-            <div class="topnav">
-                <a href="#home" class="active">x</a>
-                <div id="myLinks">
-                    <a href="#Home">Home</a>
-                    <a href="#Cakes">Cakes</a>
-                    <a href="#Ordering">Ordering</a>
-                    <a href="#Lessons">Lessons</a>
-                    <a href="#About">About</a>
-                </div>
-            
-            </div>
-        </nav>
-    </div>
-</header>
+
 <body>
     <!-- Add your markup here -->
+    <header>
+            <div class="mobile-container">
+                <nav>
+                    <div class="topnav">
+                        <a href="#home" class="active">x</a>
+                        <div id="myLinks">
+                            <a href="#Home">Home</a>
+                            <a href="#Cakes">Cakes</a>
+                            <a href="#Ordering">Ordering</a>
+                            <a href="#Lessons">Lessons</a>
+                            <a href="#About">About</a>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+                <img class="cake" src="logotipo copy 2.png" alt="">
+                <p class="comercial-phrase"> The best cakes in Town delivered to your door </p>
+            </div>
+
+    
+    </header>
     <main>
         <div class="main-Welcome">
             <H1>Welcome</H1>
@@ -54,6 +59,17 @@
             </div>
         </section>
     </main>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
     <footer>
         <div class="the-end">
         <h3>Texto footer</h3><br>
