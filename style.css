@@ -7,8 +7,8 @@
 } 
 .top-header{
     padding: 5px;
-    background-color: aquamarine;
-    height: 200px;
+    background-color: rgb(137, 207, 209);
+    height: 150px;
     flex-wrap: wrap;
 }
 .comercial-phrase{
@@ -16,7 +16,14 @@
     text-align: end;
     align-items: flex-end;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.cake{
+    width: 100px;
 }
 
 /* main */
@@ -32,5 +39,21 @@
 
 .pic-0{
     width: 300px;
-    margin-left: -5px;
+    margin-left: -10px;
+    justify-content: center;
+ 
+}
+
+.pic-1{
+    max-width: 140px;
+    flex-wrap: wrap;
+    margin: 5px;
+
+}
+.cherry{
+    object-fit: contain;
+}
+
+footer{
+    background-color: rgb(137, 207, 209);
 }
