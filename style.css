@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
+    
+
 } 
 .top-header{
     padding: 5px;
@@ -75,5 +77,9 @@
     justify-content: center;
     margin: 5px;
     background-color: rgb(223, 78, 155);
-    text-align: center;
+    padding: 5px;
+}
+.copyright{
+    font-size: 10px;
+     text-align: center;
 }
