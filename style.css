@@ -4,20 +4,30 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
-}
+} 
 .top-header{
+    padding: 5px;
     background-color: aquamarine;
     height: 200px;
+    flex-wrap: wrap;
 }
 .comercial-phrase{
+    background-color: rgb(180, 152, 206);
     text-align: end;
-    align-items: end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: 12px;
+   
+   
 }
 
 /* main */
 
 .main-Welcome{
-    margin: 10px;
-    padding: 30px;
-    font-size: 25px;
+    margin: 15px;
+   
+}
+.main-text{
+    padding: 20px 10px 20px;
+    flex-wrap: wrap;
 }
