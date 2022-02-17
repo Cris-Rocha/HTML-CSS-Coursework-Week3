@@ -6,9 +6,11 @@
     text-decoration: 0;
 }
 .top-header{
-
     background-color: aquamarine;
-    text-align-last: right flex-end;
-    text-align: end;
     height: 200px;
+}
+.comercial-phrase{
+    text-align: end;
+    align-items: end;
+
 }
