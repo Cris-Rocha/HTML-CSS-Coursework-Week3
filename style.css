@@ -94,24 +94,8 @@
 .container{
     background-color: deeppink;
     flex-wrap: wrap;
-    
-    
+    justify-content: center;
 }
-
-.row{
-    display: flex;
-    flex-direction: row;
-    align-content: normal;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-    padding: 5px;
-
-    /* justify-content: center; */
-    
-}
-   
-
 
 
 .pic-1,
@@ -123,26 +107,11 @@
     height: 175px;
     object-fit: cover;
     padding: 5px 0px 0px 5px;
-    /* flex-direction: grid-row; */
-    /* position: relative;
-    transform: translate(); */
 
 }
 
-.row-1,
-.row-2{
-    justify-content: space-around;
-    margin-left: auto;
-}
-/* #red{
-    clip-path: inset( 33px 0px 0px 0px);
-    margin-top: 0;
-    overflow: auto;
-} */
 
 /* footer */
-
-
 
 .the-end{
     justify-content: center;
