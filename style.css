@@ -60,7 +60,7 @@
     padding-left: 50px;
 }
 
-.cake{
+.logo{
     width: 100px;
 }
 
@@ -94,17 +94,18 @@
 .row{
     margin: 0;
     background-color:rgb(86, 218, 228);
-  
+    flex-wrap: wrap;
+    position: sticky;
+    display: inline-box;
 }
 
 
 .pic-1{
     max-width: 140px;
-    flex-wrap: wrap;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 0;
-    justify-content: center;
+    
 }
 #red{
     clip-path: inset( 33px 0px 0px 0px);
