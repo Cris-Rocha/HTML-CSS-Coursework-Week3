@@ -95,9 +95,15 @@
     background-color: deeppink;
     flex-wrap: wrap;
     justify-content: center;
-}
-.row-1{
     
+}
+.row-1,
+.row-2{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .pic-1,
