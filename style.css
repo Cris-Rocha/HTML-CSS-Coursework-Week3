@@ -80,7 +80,7 @@
 }
 
 .logo{
-    width: 100px;
+    width: 110px;
     position: absolute;
     top: 05px;
     left: auto;
@@ -153,6 +153,11 @@
 
 /* Breakpoint 1 */
 @media (min-width: 540px){
+    .pic-0{}
+
+    .main-Welcome{
+
+    }
 
 }
 
