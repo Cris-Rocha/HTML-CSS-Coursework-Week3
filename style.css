@@ -142,7 +142,7 @@
 .the-end{
     justify-content: center;
     margin: 5px;
-    background-color: rgb(223, 78, 155);
+    background-color: rgb(151, 223, 233);
     padding: 5px;
 }
 
@@ -157,6 +157,9 @@
 
     .main-Welcome{
 
+    }
+    .container{
+        display: flex;
     }
 
 }
