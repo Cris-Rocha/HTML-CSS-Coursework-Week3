@@ -86,6 +86,15 @@
     left: auto;
 }
 
+/* MAIN- MENU */
+
+.main-Menu ul li{
+    display: inline-block;
+   justify-content: space-between;
+   background-color: cornflowerblue;
+   align-content: center;
+}
+
 /* MAIN - WELCOME */
 
 .main-Welcome{
@@ -153,11 +162,11 @@
 
 /* Breakpoint 1 */
 @media (min-width: 540px){
-    .pic-0{}
+    /* .pic-0{}
 
     .main-Welcome{
 
-    }
+    } */
     .container{
         display: flex;
     }
