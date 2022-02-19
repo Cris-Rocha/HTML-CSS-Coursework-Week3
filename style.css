@@ -56,22 +56,25 @@
 
 .comercial-phrase{
     background-color: rgb(180, 152, 206);
+    position: absolute;
+    top: 120px;
+    right: 10px;
     text-align: end;
-    align-items: flex-end;
     flex-wrap: wrap;
-    font-size: 15px;
-    padding-right: 10px;
-    margin-left: 50px;
-    padding-left: 50px;
+    width: min-content;
+     font-size: 17px;
+     /* align-items: flex-end; */
+   
+    /* padding-right: 10px;
+    padding-left: 50px; */
+     /* margin-left: 50px; */
 }
 
 .logo{
     width: 100px;
-    /* display: flex; */
     position: absolute;
     top: 05px;
     left: auto;
-    
 }
 
 /* main */
@@ -91,6 +94,8 @@
     width: 290px;
     margin: auto; 
     justify-content: center;
+
+    
  
 }
 
