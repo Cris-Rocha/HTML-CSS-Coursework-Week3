@@ -17,10 +17,15 @@
 }
 .topnav {
   overflow: hidden;
-  position: absolute;
+  /* position: absolute;
   top: 10; left: 260px;
-  margin: 10px;
+  margin: 10px; */
   /* border-radius: 10px; */
+
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+
 }
 
 .topnav #myLinks {
@@ -62,6 +67,11 @@
 
 .logo{
     width: 100px;
+    /* display: flex; */
+    position: absolute;
+    top: 05px;
+    left: auto;
+    
 }
 
 /* main */
@@ -99,7 +109,7 @@
 }
 .row-1,
 .row-2{
- 
+
     display: flex;
     align-items: center;
     justify-content: center;
