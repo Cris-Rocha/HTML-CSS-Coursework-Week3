@@ -1,86 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive Cake webpage </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Cake webpage</title>
     <!-- Add a link to your css file here -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Add your markup here -->
     <header>
-            <div class="mobile-container">
-                <nav>
-                    <div class="topnav">
-                        <a href="#home" class="active">☰</a>
-                        <div id="myLinks">
-                            <a href="#Home">Home</a>
-                            <a href="#Cakes">Cakes</a>
-                            <a href="#Ordering">Ordering</a>
-                            <a href="#Pictures">Lessons</a>
-                            <a href="#About">About</a>
-                        </div>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div>
-                </nav>
-                <img class="logo" src="logotipo copy 2.png" alt="">
-                <span>  
-                <p class="comercial-phrase"> The&nbsp;best&nbsp;cakes&nbsp;in&nbsp;Town delivered&nbsp;to&nbsp;your&nbsp;door </p>
-                </span>
+      <div class="mobile-container">
+        <nav>
+          <div class="topnav">
+            <a href="#home" class="active">☰</a>
+            <div id="myLinks">
+              <a href="#Home">Home</a>
+              <a href="#Cakes">Cakes</a>
+              <a href="#Ordering">Ordering</a>
+              <a href="#Pictures">Lessons</a>
+              <a href="#About">About</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </nav>
+        <img class="logo" src="logotipo copy 2.png" alt="" />
+        <span>
+          <p class="comercial-phrase">
+            The&nbsp;best&nbsp;cakes&nbsp;in&nbsp;Town
+            delivered&nbsp;to&nbsp;your&nbsp;door
+          </p>
+        </span>
+      </div>
     </header>
     <main>
-        <menu class="main-Menu">
-            <ul>
-                <li>#Home</li>
-                <li>#Cakes</li>
-                <li>#Ordering</li>
-                <li>#Pictures</li>
-                <li>#About</li>
-            </ul>
-        </menu>
-        <div class="main-Welcome">
-            <H1>Welcome</H1>
-            <p class="main-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod qui molestiae aspernatur asperiores unde ex animi obcaecati debitis, rerum facilis repellendus illum blanditiis ipsam cum nostrum, quas neque accusantium ipsum?</p>
-            <img  class="pic-0" id="principalCake"src="https://hips.hearstapps.com/del.h-cdn.co/assets/16/38/1600x800/landscape-1474650684-cakes-group-193.jpg?resize=980:*" alt="imagen de varios pasteles muy hermosos y modernos enseñando grand variedad de sabores ">
+      <menu class="main-Menu">
+        <ul class="">
+          <li>#Home</li>
+          <li>#Cakes</li>
+          <li>#Ordering</li>
+          <li>#Pictures</li>
+          <li>#About</li>
+        </ul>
+      </menu>
+      <div class="main-Welcome">
+        <h1>Welcome</h1>
+
+        <p class="main-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod qui
+          molestiae aspernatur asperiores unde ex animi obcaecati debitis, rerum
+          facilis repellendus illum blanditiis ipsam cum nostrum, quas neque
+          accusantium ipsum?
+        </p>
+        <img
+          class="pic-0"
+          id="principalCake"
+          src="https://hips.hearstapps.com/del.h-cdn.co/assets/16/38/1600x800/landscape-1474650684-cakes-group-193.jpg?resize=980:*"
+          alt="imagen de varios pasteles muy hermosos y modernos enseñando grand variedad de sabores "
+        />
+      </div>
+      <div class="container">
+        <div class="row-1">
+          <img
+            class="pic-1"
+            src="cake.jpeg"
+            alt="image de un bolo com flores, coloridos em tons de roxo e verde"
+          />
+          <img
+            class="pic-2"
+            id="red"
+            src="red-velvet.jpeg"
+            alt="image de um red velvet pequeno"
+          />
         </div>
-        <div class="container">
-                <div class="row-1">
-                    <img class="pic-1" src="cake.jpeg" alt="image de un bolo com flores, coloridos em tons de roxo e verde">
-                    <img class="pic-2" id="red"src="red-velvet.jpeg" alt="image de um red velvet pequeno">
-                </div>
-                <div class="row-2">
-                    <img class="pic-3"src="donuts.jpeg" alt="image de donuts coloridos cor de rosa com flores por cima">
-                    <img class="pic-4"src="flowers.jpeg" alt="image de un bolo de tres andares com frutas e flores tema tropical">
-                </div>
+        <div class="row-2">
+          <img
+            class="pic-3"
+            src="donuts.jpeg"
+            alt="image de donuts coloridos cor de rosa com flores por cima"
+          />
+          <img
+            class="pic-4"
+            src="flowers.jpeg"
+            alt="image de un bolo de tres andares com frutas e flores tema tropical"
+          />
         </div>
+      </div>
     </main>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
         }
+      }
     </script>
     <footer>
-        <div class="the-end">
+      <div class="the-end">
         <!-- <h3>Texto footer</h3><br> -->
-        <p>blablabla</p> <br>
-        <p>blablabla</p> <br>
-        <p>blablabla</p> <br>
+        <p>blablabla</p>
+        <br />
+        <p>blablabla</p>
+        <br />
+        <p>blablabla</p>
+        <br />
 
-        <p class="copyright"> Copyright © 2022 Cris Rocha Inc. Todos los derechos reservados.</p>
-        </div>
+        <p class="copyright">
+          Copyright © 2022 Cris Rocha Inc. Todos los derechos reservados.
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
