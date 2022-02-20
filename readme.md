@@ -1,3 +1,18 @@
+
+# Cris Rocha project:
+
+
+## https://cris-rocha.github.io/HTML-CSS-Coursework-Week3/#
+
+Rama: jan-2022-2-es/cris-rocha
+
+
+Made by me, unfortunatelly I had no time to inspire in some another website so I created my own style.
+
+---------------------
+
+
+
 # Cakes Co
 
 The aim of this exercise is to create a **responsive webpage** showcasing your cake business.
