@@ -95,27 +95,30 @@
 
 /* MAIN - WELCOME */
 
-.main-Welcome{
-    margin: 15px;
-    padding: 5px;
-    display: block;
+/* .main-Welcome{
    
+   
+} */
+h1{
+   margin-left: 20px;
+   margin-top: 20px;
+
 }
 .main-text{
-    padding: 20px 10px 20px;
+    margin: 15px;
+    padding: 20px 10px 0px;
     flex-wrap: wrap;
 }
 
 .pic-0{
     width: 290px;
-    margin: auto; 
     justify-content: center;
+    border: 1px solid   rgb(126, 25, 25);
+    align-content: center;
+    margin: 10px;
+    padding: 5px;
 }
 
-#principalCake {
-    justify-content: center;
-    display: block;
-}
 
 /* CONTAINER COM 4 FOTOS */
 
@@ -213,7 +216,20 @@
         font-size: 25px;
     }
     .pic-0 {
+        border: 5px double   rgb(126, 25, 25);
         width: 500px;
+    }
+    .container{
+        display: inline-flexbox;
+    }
+    .pic-1,
+    .pic-2,
+    .pic-3,
+    .pic-4{
+        margin: 5px;
+        align-content: flex-start;
+        height: 300px;
+        width: 240px;
     }
 }
 
