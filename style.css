@@ -17,11 +17,6 @@
 
 .topnav {
   overflow: hidden;
-  /* position: absolute;
-  top: 10; left: 260px;
-  margin: 10px; */
-  /* border-radius: 10px; */
-
     display: flex;
     align-content: flex-end;
     justify-content: flex-end;
@@ -32,33 +27,35 @@
 }
 
 .topnav a {
-  color: rgb(255, 255, 255);
+  color: rgb(66, 41, 41);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
-  background-color: rgb(240, 239, 240);
+  background-color: rgb(47, 183, 218);
 }
 
 .topnav a.icon {
-  background: purple;
+  background: transparent;
   display: block;
   position: absolute;
-  top: auto;
-  left: auto;
+  top: 18px;
+  left: 268px;
   width: 5px;
   height: 5px;  
+  
   /* corrigir height 21 and width 15 se quiser cobrir o bloco todo  */
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: transparent;
+  color: rgb(107, 25, 201);
 
 }
 .active {
   background-color: #aa0f04;
-  color: white;
+  color: rgb(26, 30, 223);
+  
 }
 
  /* LOGO E FRASE HEADER  */
@@ -84,6 +81,9 @@
     position: absolute;
     top: 05px;
     left: auto;
+    border-radius: 100%;
+    border: 5px double rgb(126, 25, 25);
+    
 }
 
 /* MAIN- MENU */
@@ -100,6 +100,11 @@
 
 /* MAIN - WELCOME */
 
+.main-Welcome{
+    background-color: rgb(152, 185, 247);
+    margin: 5px;
+}
+
 
 .main-text{
     margin: 10px;
@@ -109,7 +114,7 @@
 
 .pic-0{
     width: 290px;
-    border: 1px solid rgb(126, 25, 25);
+    border: 5px double rgb(126, 25, 25);
     margin-bottom: -65px;
     margin-top: 100px;
     padding: 5px;
@@ -134,17 +139,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .pic-1,
 .pic-2,
 .pic-3,
 .pic-4{
+     margin-top: 5px;
+    margin-bottom: 5px;
     max-width: 100%;
     width: 140px;
     height: 175px;
     object-fit: cover;
     padding: 5px 5px 5px 5px;
+    border: 1px solid rgb(126, 25, 25);
 }
 
 
@@ -160,15 +169,20 @@
 .footer-line1,
 .footer-line2,
 .footer-line3{
-    padding: 03px;
-    margin: 2px;
-    line-height: 12px;
-    /* border-radius: 10px; */
+    line-height: 13px;
+     background-color: rgb(226, 211, 231);
+        border-radius: 20px;
+        padding: 07px;
+        margin: 4px;
+        border: 2px dashed deeppink;
+        font-size: 17px;
+       
 }
 
 .copyright{
-    font-size: 10px;
+    font-size: 13px;
      text-align: center;
+    color: rgb(85, 26, 139);
 }
 
 /* Breakpoint 1 */
@@ -259,7 +273,11 @@
 @media (min-width: 900px){
 
     .logo{
-        margin-left: 30px;
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 25px;
+        padding: -5px;
+        border: 5px double rgb(126, 25, 25);
     }
     .main-Menu{
         margin-top:10px;
@@ -284,6 +302,7 @@
         top: -10px;
         left:280px;
         margin-top: -0px;
+        border-radius: 15%;
     }
     h1.main-text{
         font-size: 30px;
@@ -305,20 +324,20 @@
 
     .container{
         flex-wrap: nowrap;
-        padding: 10px;
-        margin: 07px;
-
+        margin: 0 5px;
     }
-    .row{
-        margin:0;
+    .row-1,
+    .row-2{
+        margin: 10px 0;
     }
     .pic-1,
     .pic-2,
     .pic-3,
     .pic-4{
-        width:210px ;
-        border: 4px double brown;
+        width:190px;
+        border: 5px double rgb(126, 25, 25);
         padding: 5px;
+        margin-right: 5px;
     }
     .the-end{
         
