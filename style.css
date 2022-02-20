@@ -215,10 +215,13 @@ h1{
         text-align: center;
         
     }
-    .main-Menu ul li a{
+    .main-Menu ul li a,
+    .footer-line1,
+    .footer-line2,
+    .footer-line3{
         background-color: rgb(226, 211, 231);
         border-radius: 20px;
-        padding: 05px;
+        padding: 07px;
         margin: 4px;
         border: 2px dashed deeppink;
         font-size: 20px;
