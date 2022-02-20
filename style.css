@@ -143,14 +143,14 @@ h1{
 .pic-2,
 .pic-3,
 .pic-4{
-     margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     max-width: 100%;
     width: 140px;
     height: 175px;
     object-fit: cover;
-    padding: 5px 5px 5px 5px;
-    border: 4px double rgb(85, 26, 145);
+    padding: 3px 3px 3px 3px;
+    border: 3px double rgb(85, 26, 145);
     background-color: white;
 }
 
