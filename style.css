@@ -203,6 +203,9 @@
     .main-Menu ul li a:hover {
         background-color: gainsboro;
     }
+    h1 {
+        font-size: 40px;
+    }
 }
 
 /* Breakpoint 2 */
