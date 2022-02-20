@@ -4,14 +4,13 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
-    
+    font-family: 'Raleway', sans-serif;   
 } 
-/*  MOBILE MENU */
 
+/*  MOBILE MENU */
 
 .mobile-container{
     padding: 10px;
-    /* background-color: rgb(137, 207, 209); */
     background: rgb(238,174,202);
     background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(151,233,233,1) 100%);
     margin: 5px;
@@ -31,12 +30,12 @@
 }
 
 .topnav a {
-  color: rgb(66, 41, 41);
+  color: rgb(243, 241, 241);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
- background-color:  rgba(126, 62, 134, 0.534);
+  background-color:  rgba(125, 62, 134, 0.788);
 }
 
 .topnav a.icon {
@@ -47,7 +46,6 @@
   left: 268px;
   width: 5px;
   height: 5px;  
-  
   /* corrigir height 21 and width 15 se quiser cobrir o bloco todo  */
 }
 
@@ -65,29 +63,25 @@
  /* LOGO E FRASE HEADER  */
 
 .comercial-phrase{
-   
     position: absolute;
-    top: 110px; 
+    top: 118px; 
     right: 10px;
     text-align: end;
     flex-wrap: wrap;
     width: min-content;
     color: rgba(125, 62, 134, 0.897);
-    font-size: 20px;  /* ESTILO E TAMANHO DA LETRA INTERFERE NA APARENCIA FINAL */
-
-     /* align-items: flex-end; */
-    /* padding-right: 10px;
-    padding-left: 50px; */
-     /* margin-left: 50px; */
+    font-style: bolder;
+    font-size: 19px;  /* ESTILO E TAMANHO DA LETRA INTERFERE NA APARENCIA FINAL */
 }
 
 .logo{
     width: 110px;
     position: absolute;
-    top: 05px;
+    top: 07px;
     left: auto;
     border-radius: 100%;
-    border: 5px double rgb(126, 25, 25);
+    border: 3px double rgb(85, 26, 145);
+    background-color: white;
     
 }
 
@@ -99,14 +93,15 @@ background: #c9e9e9;
 
 .main-Menu ul li{
     display: none;
-    
 
 }
 
 
 /* MAIN - WELCOME */
 
-
+h1{
+    font-weight: bold;
+}
 
 .main-text{
     margin: 10px;
@@ -117,7 +112,7 @@ background: #c9e9e9;
 
 .pic-0{
     width: 290px;
-    border: 5px double rgb(126, 25, 25);
+    border: 5px double rgb(85, 26, 145);
     margin-bottom: -65px;
     margin-top: 100px;
     padding: 5px;
@@ -125,6 +120,7 @@ background: #c9e9e9;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: white;
 }
 
 
@@ -134,15 +130,13 @@ background: #c9e9e9;
     /* background-color: deeppink; */
     flex-wrap: wrap;
     justify-content: center;  
-
 }
 
 .row-1,
 .row-2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .pic-1,
@@ -156,7 +150,8 @@ background: #c9e9e9;
     height: 175px;
     object-fit: cover;
     padding: 5px 5px 5px 5px;
-    border: 1px solid rgb(126, 25, 25);
+    border: 4px double rgb(85, 26, 145);
+    background-color: white;
 }
 
 
@@ -181,7 +176,6 @@ background: #c9e9e9;
         font-size: 17px;
         padding: 5px;
         margin:2px;
-       
 }
 
 .copyright{
@@ -219,43 +213,49 @@ background: #c9e9e9;
         padding: 3px;  
         text-decoration: none;  
     }
-    .button,
-    .footer-line1,
-    .footer-line2,
-    .footer-line3{
-        background-color: rgb(189, 126, 221);
+    .button{
+        /* background-color: rgb(189, 126, 221); */
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,0.885670731707317) 59%, rgba(201,233,233,0.7149390243902439) 98%);
         text-align: center;
         
     }
 
     .button{
         width: 100%;
-        margin:0;
+        margin:0;  
     }
+    .footer-line1,
+    .footer-line2,
+    .footer-line3{
+        background:rgb(238,174,202);
+    }
+
     .main-Menu ul li a,
     .footer-line1,
     .footer-line2,
     .footer-line3{
         background-color: rgb(226, 211, 231);
         border-radius: 20px;
-        padding: 07px;
-        margin: 4px;
+        padding: 05px;
+        margin: 3px;
         border: 2px dashed deeppink;
-        font-size: 20px;
+        font-size: 16px;
         flex-wrap: nowrap;
-
     }
     .main-Menu ul li a:hover {
         background-color: gainsboro;
     }
     h1 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .main-text{
         font-size: 25px;
+        margin-left: 15px;
+        padding-left: px;
     }
     .pic-0 {
-        border: 5px double   rgb(126, 25, 25);
+        border: 5px double rgb(85, 26, 145);
         width: 500px;
         margin-top: 150px;
         margin-bottom: -110px
@@ -267,7 +267,7 @@ background: #c9e9e9;
     .pic-2,
     .pic-3,
     .pic-4{
-        margin: 5px;
+        margin: 3px;
         align-content: flex-start;
         height: 300px;
         width: 240px;
@@ -283,11 +283,12 @@ background: #c9e9e9;
 @media (min-width: 900px){
 
     .logo{
+        margin-top: 3px;
         width: 150px;
         border-radius: 100%;
         margin-left: 25px;
         padding: -5px;
-        border: 5px double rgb(126, 25, 25);
+        border: 5px double rgb(85, 26, 145);
     }
     .main-Menu{
         margin-top:10px;
@@ -299,20 +300,23 @@ background: #c9e9e9;
         flex-wrap: nowrap;
         width: 600px;
         margin-right: 10px;
-        margin-top: 10px;
+        padding-right: 10px;
+        margin-top: -10px;
     }
     .main-Welcome{
-        margin:0px;
+        margin:-20px;
         height: 340px;
+        margin-bottom: 10px;
     
 }
     .pic-0{
         width: 460px;
         position: relative;
-        top: -10px;
+        top: -60px;
         left:280px;
         margin-top: -0px;
-        border-radius: 15%;
+        margin-bottom: 10px;
+    
     }
     h1.main-text{
         font-size: 30px;
@@ -323,7 +327,7 @@ background: #c9e9e9;
         max-width: 390px;
         position: relative;
         top: 16%;
-        left: 54%;
+        left: 51%;
         margin-right: 5px;
         margin-top: 10px;
         text-align: end;
@@ -345,13 +349,11 @@ background: #c9e9e9;
     .pic-3,
     .pic-4{
         width:190px;
-        border: 5px double rgb(126, 25, 25);
+        border: 5px double rgb(85, 26, 145);
         padding: 5px;
         margin-right: 5px;
     }
-    .the-end{
-        
-    }
+   
      .footer-line1,
      .footer-line2,
      .footer-line3{
