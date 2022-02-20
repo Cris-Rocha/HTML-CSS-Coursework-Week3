@@ -166,7 +166,7 @@
     .main-Welcome{
 
     } */
-    
+
     .container{
         display: flex;
     }
@@ -193,7 +193,9 @@
         margin: 4px;
         border: 2px dashed deeppink;
         font-size: 20px;
-
+    }
+    .main-Menu ul li a:hover {
+        background-color: gainsboro;
     }
 }
 
