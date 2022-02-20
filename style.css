@@ -170,23 +170,24 @@
         display: flex;
     }
 
+    .main-Menu{
+        line-height: 70px;
+
+    }
     .main-Menu ul li{
-    
-    display: inline-block;
-    flex-flow: row nowrap;
-    justify-content: center;
-    background-color: cornflowerblue;
-    align-content: center;
-    margin: 05px;
-    padding: 10px; 
-
-
-    text-decoration: none;
-    text-align: center;
+        display: inline-block;
+        /* flex-flow: row nowrap; */
+        background-color: cornflowerblue;
+        padding: 10px;  
+        text-decoration: none;
 }
-.button{
-    background-color: darkorchid;
+    .button{
+        background-color: darkorchid;
+        text-align: center;
 }
+    ul.main-Menu li a{
+        
+    }
 }
 
 /* Breakpoint 2 */
