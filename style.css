@@ -101,18 +101,11 @@
 /* MAIN - WELCOME */
 
 
-h1{
-   margin-left: 20px;
-   margin-top: 20px;
-
-}
 .main-text{
-    margin: 15px;
-    padding: 20px 10px 0px;
+    margin: 10px;
+    padding: 10px 10px 0px;
     flex-wrap: wrap;
- 
 }
-
 
 .pic-0{
     width: 290px;
@@ -264,5 +257,51 @@ h1{
 /* Breakpoint 2 */
 
 @media (min-width: 900px){
+
+    .logo{
+        margin-left: 30px;
+    }
+    .main-Menu{
+        margin-top:10px;
+        margin-left: 0;
+        margin-bottom: -10px;
+        width: 100%;
+    }
+    .comercial-phrase {
+        flex-wrap: nowrap;
+        width: 600px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .main-Welcome{
+        margin:0px;
+        height: 340px;
+    
+}
+    .pic-0{
+        width: 460px;
+        position: relative;
+        top: -10px;
+        left:280px;
+        margin-top: -0px;
+    }
+    h1.main-text{
+        font-size: 30px;
+    }
+
+    .main-text{
+        width: 400px;
+        max-width: 390px;
+        position: relative;
+        top: 16%;
+        left: 54%;
+        margin-right: 5px;
+        margin-top: 10px;
+        text-align: end;
+        font-size: 20px;
+        align-content: flex-end;
+
+    }
+   
 
 }
