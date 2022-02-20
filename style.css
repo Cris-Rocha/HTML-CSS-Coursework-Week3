@@ -173,6 +173,10 @@
     .topnav{
         display: none;
     }
+    .logo{
+        width: 160px;
+        margin-left: 10px;
+    }
 
     .main-Menu{
         line-height: 50px;
