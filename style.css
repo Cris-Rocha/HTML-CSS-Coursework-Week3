@@ -161,11 +161,6 @@
 
 /* Breakpoint 1 */
 @media (min-width: 540px){
-    /* .pic-0{}
-
-    .main-Welcome{
-
-    } */
 
     .container{
         display: flex;
@@ -176,6 +171,11 @@
     .logo{
         width: 160px;
         margin-left: 10px;
+    }
+    .comercial-phrase{
+        font-size: 30px;
+        position: absolute;
+        top: 90px;
     }
 
     .main-Menu{
