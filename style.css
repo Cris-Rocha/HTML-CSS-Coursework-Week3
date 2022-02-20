@@ -89,11 +89,9 @@
 /* MAIN- MENU */
 
 .main-Menu ul li{
-    display: inline-block;
-   justify-content: space-between;
-   background-color: cornflowerblue;
-   align-content: center;
+    display: none;
 }
+
 
 /* MAIN - WELCOME */
 
@@ -125,6 +123,7 @@
     background-color: deeppink;
     flex-wrap: wrap;
     justify-content: center;  
+
 }
 
 .row-1,
@@ -171,6 +170,23 @@
         display: flex;
     }
 
+    .main-Menu ul li{
+    
+    display: inline-block;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: cornflowerblue;
+    align-content: center;
+    margin: 05px;
+    padding: 10px; 
+
+
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    background-color: darkorchid;
+}
 }
 
 /* Breakpoint 2 */
