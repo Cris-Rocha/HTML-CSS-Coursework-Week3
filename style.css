@@ -152,9 +152,11 @@ h1{
 
 .the-end{
     justify-content: center;
+    text-align: center;
     margin: 5px;
     background-color: rgb(151, 223, 233);
-    padding: 5px;
+    padding: 10px;
+    font-size: ;
 }
 
 .copyright{
