@@ -124,7 +124,7 @@ h1{
 }
 
 
-/* container - fotos com bolo */
+/* flex box container */
 
 .container{
     flex-wrap: wrap;
@@ -259,9 +259,11 @@ h1{
         margin-top: 150px;
         margin-bottom: -110px
     }
+
     .container{
         display: inline-flexbox;
     }
+
     .pic-1,
     .pic-2,
     .pic-3,
@@ -271,6 +273,7 @@ h1{
         height: 300px;
         width: 240px;
     }
+
     .the-end{
     justify-content: center;
     text-align: center;
