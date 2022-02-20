@@ -88,6 +88,11 @@
 
 /* MAIN- MENU */
 
+.main-Menu{
+    position: relative;
+
+}
+
 .main-Menu ul li{
     display: none;
 }
@@ -95,10 +100,7 @@
 
 /* MAIN - WELCOME */
 
-/* .main-Welcome{
-   
-   
-} */
+
 h1{
    margin-left: 20px;
    margin-top: 20px;
@@ -108,15 +110,20 @@ h1{
     margin: 15px;
     padding: 20px 10px 0px;
     flex-wrap: wrap;
+ 
 }
+
 
 .pic-0{
     width: 290px;
-    justify-content: center;
-    border: 1px solid   rgb(126, 25, 25);
-    align-content: center;
-    margin: 10px;
+    border: 1px solid rgb(126, 25, 25);
+    margin-bottom: -65px;
+    margin-top: 100px;
     padding: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -156,7 +163,6 @@ h1{
     margin: 5px;
     background-color: rgb(151, 223, 233);
     padding: 10px;
-    font-size: ;
 }
 
 .copyright{
@@ -220,6 +226,8 @@ h1{
     .pic-0 {
         border: 5px double   rgb(126, 25, 25);
         width: 500px;
+        margin-top: 150px;
+        margin-bottom: -110px
     }
     .container{
         display: inline-flexbox;
