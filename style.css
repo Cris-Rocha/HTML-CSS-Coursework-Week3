@@ -160,6 +160,7 @@
 }
 
 /* Breakpoint 1 */
+
 @media (min-width: 540px){
 
     .container{
@@ -184,13 +185,13 @@
     }
     .main-Menu ul li{
         display: inline-block;
-        /* flex-flow: row nowrap; */
-        padding: 10px;  
+        padding: 3px;  
         text-decoration: none;  
     }
     .button{
         background-color: rgb(189, 126, 221);
         text-align: center;
+        
     }
     .main-Menu ul li a{
         background-color: rgb(226, 211, 231);
@@ -199,6 +200,8 @@
         margin: 4px;
         border: 2px dashed deeppink;
         font-size: 20px;
+        flex-wrap: nowrap;
+
     }
     .main-Menu ul li a:hover {
         background-color: gainsboro;
@@ -208,7 +211,9 @@
     }
     .main-text{
         font-size: 25px;
-
+    }
+    .pic-0 {
+        width: 500px;
     }
 }
 
