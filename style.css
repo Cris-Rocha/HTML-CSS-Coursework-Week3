@@ -319,23 +319,18 @@
         width:210px ;
         border: 4px double brown;
         padding: 5px;
-
     }
-    /* .row-1{
-       position: relative;
-       top: 10px;
-       left: -0px;
-       width: 200px;
-    } 
-    ..row-2{
-      justify-content: end;
-    } */
-    /* .pic-1{
-        position: relative;
-       top: 10px;
-       left: -90px;
-
-    } */
-   
+    .the-end{
+        
+    }
+     .footer-line1,
+     .footer-line2,
+     .footer-line3{
+        width: 70%;
+        padding: 10px;
+    }
+   .copyright{
+       
+   }
 
 }
