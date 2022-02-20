@@ -170,11 +170,13 @@
     .container{
         display: flex;
     }
+    .topnav{
+        display: none;
+    }
 
     .main-Menu{
         line-height: 50px;
         margin: 20px;
-
     }
     .main-Menu ul li{
         display: inline-block;
