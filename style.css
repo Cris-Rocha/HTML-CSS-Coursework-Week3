@@ -186,12 +186,12 @@
         display: inline-block;
         /* flex-flow: row nowrap; */
         padding: 10px;  
-        text-decoration: none;
-}
+        text-decoration: none;  
+    }
     .button{
         background-color: rgb(189, 126, 221);
         text-align: center;
-}
+    }
     .main-Menu ul li a{
         background-color: rgb(226, 211, 231);
         border-radius: 20px;
@@ -205,6 +205,10 @@
     }
     h1 {
         font-size: 40px;
+    }
+    .main-text{
+        font-size: 25px;
+
     }
 }
 
