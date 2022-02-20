@@ -4,13 +4,17 @@
     padding: 0;
     margin: 0;
     text-decoration: 0;
+    
 } 
 /*  MOBILE MENU */
 
 
 .mobile-container{
     padding: 10px;
-    background-color: rgb(137, 207, 209);
+    /* background-color: rgb(137, 207, 209); */
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(151,233,233,1) 100%);
+    margin: 5px;
     height: 150px;
     flex-wrap: wrap;
 }
@@ -32,7 +36,7 @@
   text-decoration: none;
   font-size: 17px;
   display: block;
-  background-color: rgb(47, 183, 218);
+ background-color:  rgba(126, 62, 134, 0.534);
 }
 
 .topnav a.icon {
@@ -61,13 +65,14 @@
  /* LOGO E FRASE HEADER  */
 
 .comercial-phrase{
-    background-color: rgb(180, 152, 206);
+   
     position: absolute;
     top: 110px; 
     right: 10px;
     text-align: end;
     flex-wrap: wrap;
     width: min-content;
+    color: rgba(125, 62, 134, 0.897);
     font-size: 20px;  /* ESTILO E TAMANHO DA LETRA INTERFERE NA APARENCIA FINAL */
 
      /* align-items: flex-end; */
@@ -88,28 +93,26 @@
 
 /* MAIN- MENU */
 
-.main-Menu{
-    position: relative;
-
+main{
+background: #c9e9e9;
 }
 
 .main-Menu ul li{
     display: none;
+    
+
 }
 
 
 /* MAIN - WELCOME */
 
-.main-Welcome{
-    background-color: rgb(152, 185, 247);
-    margin: 5px;
-}
 
 
 .main-text{
     margin: 10px;
     padding: 10px 10px 0px;
     flex-wrap: wrap;
+    color:rgba(125, 62, 134, 0.952);
 }
 
 .pic-0{
@@ -128,7 +131,7 @@
 /* CONTAINER COM 4 FOTOS */
 
 .container{
-    background-color: deeppink;
+    /* background-color: deeppink; */
     flex-wrap: wrap;
     justify-content: center;  
 
@@ -160,22 +163,24 @@
 /* FOOTER */
 
 .the-end{
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(151,233,233,1) 100%);
     margin: 10px;
-    background-color: rgb(151, 223, 233);
+    /* background-color: rgb(151, 223, 233); */
     padding: 15px;
     flex-direction: row;
+    
 
 }
 .footer-line1,
 .footer-line2,
 .footer-line3{
-    line-height: 13px;
      background-color: rgb(226, 211, 231);
         border-radius: 20px;
-        padding: 07px;
-        margin: 4px;
         border: 2px dashed deeppink;
         font-size: 17px;
+        padding: 5px;
+        margin:2px;
        
 }
 
@@ -221,6 +226,11 @@
         background-color: rgb(189, 126, 221);
         text-align: center;
         
+    }
+
+    .button{
+        width: 100%;
+        margin:0;
     }
     .main-Menu ul li a,
     .footer-line1,
